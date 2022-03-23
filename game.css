@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+body
+{
+	background: linear-gradient(to right,blueviolet,  blue );
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		margin-bottom: 10px;
+	}
+
+	.login_div1:hover
+	{
+		box-shadow: black 0px 5px 10px;
+		transition: 1s;
+	}
+	.login_div2:hover
+	{
+		box-shadow: black 0px 5px 10px;
+		transition: 1s;
+	}
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#login{
+	background-color: blueviolet;
+	box-shadow: black 0px 5px 10px;
+	font-size: 20px;
+	border-color: blueviolet;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#headING{
+	font-family: 'Teko', sans-serif;
+}
